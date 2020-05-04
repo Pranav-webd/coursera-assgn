@@ -1,0 +1,110 @@
+<style>
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 175%;
+	 font-family: Comic Sans, Comic Sans MS, cursive;
+	
+}
+
+.row{
+	width: 100%;
+}
+
+.item{
+
+	border: 1px solid black;
+    margin: 0px 15px 30px 15px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    background-color: grey;
+}
+section
+{
+	clear: right;
+	padding: 10px;
+	font-size: 105%;
+}
+
+#title1
+{
+	text-align: center;
+	float: right;
+	top: 0px;
+	right: 0px;
+	width: 30%;
+	font-size: 125%;
+    background-color: #FFFF00;
+	padding: 5px 15px 5px 15px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#title2
+{
+	text-align: center;
+	float: right;
+	width: 30%;
+	font-size: 125%;
+    background-color: #00FFFF;
+	padding: 5px 15px 5px 15px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#title3
+{
+	text-align: center;
+	float: right;
+	width: 30%;
+	font-size: 125%;
+    background-color: #7FFF00;
+	padding: 5px 15px 5px 15px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+
+
+@media(min-width: 992px)
+{
+	.col-lg-4
+	{
+		float: left;
+		width:33.33%;} 
+	
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.col-md-6, .col-md-12
+	{
+		float: left;
+		
+		
+		
+	}
+	.col-md-6{ width: 50%; }
+	.col-md-12{ width: 100; }
+}
+
+@media(max-width: 767px)
+{
+	.col-sm-12
+	{
+		float: left;
+		
+	}
+	.col-sm-12{width: 100;}
+}
+
+
+
+
+</style>
