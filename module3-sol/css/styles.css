@@ -1,0 +1,104 @@
+<style>
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*---------HEADER-----------*/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-header{
+  width: 100%;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#header-nav > .container{
+	padding-bottom: 10px;
+}
+#nav-list {
+  margin-top: 10px;
+  background-color: red;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*----------- BODY -------*/
+.page-heading > h2{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	margin-bottom: 20px;
+}
+
+.data{
+	border: 1px solid;
+	border-color: black;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #00FFFF;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-weight: bold;
+}
+.data >h3{
+	text-align: center;
+	margin: 10px auto 20px;
+	font-weight: bold;
+}
+
+#text{
+	font-size: 1.2em;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  
+  /* End Header */
+
+  /* Home Page */
+  .container{
+    margin-top: 30px;
+    padding: 0;
+  }
+}
+
+
+</style>
